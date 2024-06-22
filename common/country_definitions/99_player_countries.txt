@@ -34,7 +34,7 @@ ETH = { #Fatimids
 	capital = STATE_LOWER_EGYPT
 }
 
-V25 = { #Vinland
+W86 = { #Vinland
 	color = { 94 117 55 }
 	country_type = recognized
 	tier = hegemony
@@ -43,7 +43,7 @@ V25 = { #Vinland
 	capital = STATE_FLORIDA
 }
 
-W60 = { #RomanumOrientis
+W44 = { #RomanumOrientis
 	color = { 145 20 78 }
 	country_type = recognized
 	tier = hegemony
@@ -52,7 +52,7 @@ W60 = { #RomanumOrientis
 	capital = STATE_EASTERN_THRACE
 }
 
-W64 = { #Outremer
+W48 = { #Outremer
 	color = { 255 223 0 }
 	country_type = recognized
 	tier = hegemony
@@ -61,7 +61,7 @@ W64 = { #Outremer
 	capital = STATE_PALESTINE
 }
 
-W76 = { #Qing
+W56 = { #Qing
 	color = { 237 152 18 }
 	country_type = recognized
 	tier = hegemony
@@ -70,7 +70,7 @@ W76 = { #Qing
 	capital = STATE_BEIJING
 }
 
-X29 = { #BRC
+W33 = { #BRC
 	color = { 154 69 69 }
 	country_type = recognized
 	tier = hegemony
