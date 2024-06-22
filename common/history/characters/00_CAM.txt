@@ -1,24 +1,24 @@
 ﻿CHARACTERS = {
 	c:CAM = {
 		create_character = {
-			first_name = "Barom_Reachea_Meang"
+			first_name = "Ang_Eng_Touch"
 			is_general = yes
 			commander_rank = commander_rank_1
-			birth_date = 1655.8.2
+			birth_date = 1658.12.26
 			traits = {
-				cocaine_addiction 
+				shellshocked 
 			}
 		}
 
 		create_character = {
-			first_name = "Ang_Mey"
+			first_name = "Anak_Moneang_Krachap"
 			last_name = "Stung_Treng"
 			female = yes
 			culture = cu:khmer
 			religion = rel:theravada
-			birth_date = 1617.10.7
+			birth_date = 1652.3.18
 			traits = {
-				meticulous 
+				basic_colonial_administrator innovative 
 			}
 		}
 
@@ -28,23 +28,23 @@
 			heir = yes
 			culture = cu:khmer
 			religion = rel:theravada
-			birth_date = 1643.7.11
+			birth_date = 1677.11.12
 			traits = {
-				meticulous 
+				charismatic 
 			}
 		}
 
 		create_character = {
-			first_name = "Barom_Reachea_VI"
+			first_name = "Barom_Reachea_VII"
 			last_name = "Khmer"
 			ruler = yes
 			is_general = yes
-			commander_rank = commander_rank_2
+			commander_rank = commander_rank_1
 			culture = cu:khmer
 			religion = rel:theravada
-			birth_date = 1621.8.3
+			birth_date = 1643.7.11
 			traits = {
-				basic_political_operator innovative 
+				arrogant 
 			}
 			on_created = {
 				set_variable = is_married

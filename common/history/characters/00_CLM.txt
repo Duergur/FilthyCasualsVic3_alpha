@@ -16,11 +16,13 @@
 			first_name = "Turlough"
 			last_name = "Poitiers"
 			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_3
 			culture = cu:cajun
 			religion = rel:chalcedonian
 			birth_date = 1673.7.7
 			traits = {
-				basic_political_operator trait_child 
+				basic_political_operator charismatic 
 			}
 		}
 
@@ -38,24 +40,16 @@
 			first_name = "Tadhg_I"
 			last_name = "Poitiers"
 			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
 			culture = cu:cajun
 			religion = rel:chalcedonian
 			birth_date = 1654.10.1
 			traits = {
-				charismatic 
+				basic_offensive_planner tactful 
 			}
 			on_created = {
 				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Aonghus_Meade"
-			is_general = yes
-			commander_rank = commander_rank_1
-			birth_date = 1632.2.21
-			traits = {
-				alcoholic 
 			}
 		}
 
@@ -65,17 +59,7 @@
 			commander_rank = commander_rank_2
 			birth_date = 1630.8.29
 			traits = {
-				shellshocked 
-			}
-		}
-
-		create_character = {
-			first_name = "Art_Martyn"
-			is_general = yes
-			commander_rank = commander_rank_1
-			birth_date = 1643.1.22
-			traits = {
-				wrathful 
+				cruel 
 			}
 		}
 

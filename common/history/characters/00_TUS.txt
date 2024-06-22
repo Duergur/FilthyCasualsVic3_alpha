@@ -1,13 +1,22 @@
 ﻿CHARACTERS = {
 	c:TUS = {
 		create_character = {
-			first_name = "Giovanni_Corsini"
-			is_general = yes
-			commander_rank = commander_rank_1
-			birth_date = 1631.11.12
+			first_name = "Henri"
+			last_name = "Poitiers"
+			heir = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1673.11.23
 			traits = {
-				grifter 
+				direct 
 			}
+		}
+
+		create_character = {
+			first_name = "Bonaventura_Barberini"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1655.9.17
 		}
 
 		create_character = {
@@ -19,18 +28,6 @@
 			birth_date = 1633.5.7
 			traits = {
 				hedonist 
-			}
-		}
-
-		create_character = {
-			first_name = "Cosimo"
-			last_name = "Bardi"
-			heir = yes
-			culture = cu:north_italian
-			religion = rel:chalcedonian
-			birth_date = 1661.6.5
-			traits = {
-				experienced_political_operator trait_child 
 			}
 		}
 

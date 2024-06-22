@@ -1,39 +1,44 @@
 ﻿CHARACTERS = {
 	c:IRE = {
 		create_character = {
-			first_name = "Gearoid_Cholmondeley"
-			is_general = yes
-			commander_rank = commander_rank_2
-			birth_date = 1639.8.20
-			traits = {
-				surveyor 
-			}
-		}
-
-		create_character = {
-			first_name = "Art_FitzOliver"
-			is_general = yes
-			commander_rank = commander_rank_2
-			birth_date = 1644.12.27
-			traits = {
-				shellshocked 
-			}
-		}
-
-		create_character = {
-			first_name = "Caoimhin_Feilding"
+			first_name = "Muchadh_Keane"
 			is_admiral = yes
 			commander_rank = commander_rank_2
-			birth_date = 1632.7.18
+			birth_date = 1677.5.5
+			traits = {
+				alcoholic 
+			}
 		}
 
 		create_character = {
-			first_name = "Muchadh_FitzWilliam"
+			first_name = "Gearoid_Blayney"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1669.1.8
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Criomhthann_O_Carroll"
 			is_admiral = yes
 			commander_rank = commander_rank_1
-			birth_date = 1642.7.23
+			birth_date = 1663.4.24
 			traits = {
 				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Fedelma"
+			last_name = "Wessel"
+			female = yes
+			culture = cu:vestmenn
+			religion = rel:protestant
+			birth_date = 1649.6.29
+			traits = {
+				cautious 
 			}
 		}
 
@@ -43,9 +48,19 @@
 			heir = yes
 			culture = cu:vestmenn
 			religion = rel:protestant
-			birth_date = 1650.9.29
+			birth_date = 1678.6.9
 			traits = {
-				basic_diplomat reserved 
+				cautious experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Gearoid_Cholmondeley"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1639.8.20
+			traits = {
+				meticulous surveyor 
 			}
 		}
 
@@ -58,6 +73,9 @@
 			birth_date = 1629.5.25
 			traits = {
 				direct 
+			}
+			on_created = {
+				set_variable = is_married
 			}
 		}
 

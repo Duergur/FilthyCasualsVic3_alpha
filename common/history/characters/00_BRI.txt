@@ -1,6 +1,16 @@
 ﻿CHARACTERS = {
 	c:BRI = {
 		create_character = {
+			first_name = "Visant_de_Francheville"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1658.9.21
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
 			first_name = "Arthur"
 			last_name = "de_Bretagne"
 			culture = cu:andalucian
@@ -19,7 +29,7 @@
 			religion = rel:chalcedonian
 			birth_date = 1667.6.2
 			traits = {
-				basic_colonial_administrator trait_child 
+				basic_colonial_administrator meticulous 
 			}
 		}
 
@@ -32,20 +42,10 @@
 			religion = rel:chalcedonian
 			birth_date = 1652.6.2
 			traits = {
-				innovative 
+				persistent 
 			}
 			on_created = {
 				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Richard_de_Chatillon"
-			is_general = yes
-			commander_rank = commander_rank_2
-			birth_date = 1599.9.23
-			traits = {
-				kidney_stones 
 			}
 		}
 

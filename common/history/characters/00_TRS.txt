@@ -1,43 +1,61 @@
 ﻿CHARACTERS = {
 	c:TRS = {
 		create_character = {
+			first_name = "Samuel_Rakoczy"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1672.6.6
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
 			first_name = "Dorina"
-			last_name = "Rakoczy"
+			last_name = "Rhedey"
 			female = yes
 			culture = cu:romanian
 			religion = rel:chalcedonian
-			birth_date = 1649.1.18
+			birth_date = 1667.1.22
 			traits = {
-				experienced_political_operator wrathful 
+				cautious 
 			}
 		}
 
 		create_character = {
 			first_name = "Janos"
-			last_name = "Erdody"
+			last_name = "Doczy"
 			heir = yes
 			culture = cu:romanian
 			religion = rel:chalcedonian
-			birth_date = 1666.2.21
+			birth_date = 1690.1.22
 			traits = {
 				trait_child 
 			}
 		}
 
 		create_character = {
-			first_name = "Leopold_I"
-			last_name = "Erdody"
+			first_name = "Sandor_I"
+			last_name = "Doczy"
 			ruler = yes
-			is_general = yes
-			commander_rank = commander_rank_2
 			culture = cu:romanian
 			religion = rel:chalcedonian
-			birth_date = 1647.2.16
+			birth_date = 1668.11.17
 			traits = {
-				ambitious 
+				tactful 
 			}
 			on_created = {
 				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Simon_Kemeny"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1650.9.12
+			traits = {
+				grifter 
 			}
 		}
 

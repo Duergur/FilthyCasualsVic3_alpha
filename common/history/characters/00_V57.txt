@@ -1,0 +1,54 @@
+﻿CHARACTERS = {
+	c:V57 = {
+		create_character = {
+			first_name = "Gennadios_Traphines"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1661.3.29
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Markellos"
+			last_name = "Gavras"
+			culture = cu:south_italian
+			religion = rel:chalcedonian
+			birth_date = 1653.11.20
+			traits = {
+				arrogant experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Adelasia"
+			last_name = "Theodosiopolites"
+			heir = yes
+			female = yes
+			culture = cu:south_italian
+			religion = rel:chalcedonian
+			birth_date = 1674.6.26
+			traits = {
+				reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "Adelasia_IV"
+			last_name = "Theodosiopolites"
+			ruler = yes
+			female = yes
+			culture = cu:south_italian
+			religion = rel:chalcedonian
+			birth_date = 1637.7.14
+			traits = {
+				cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

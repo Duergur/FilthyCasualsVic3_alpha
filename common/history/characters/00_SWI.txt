@@ -1,14 +1,51 @@
 ﻿CHARACTERS = {
 	c:SWI = {
 		create_character = {
+			first_name = "Angela"
+			last_name = "von_Pfalz"
+			female = yes
+			culture = cu:alemannic
+			religion = rel:chalcedonian
+			birth_date = 1649.4.27
+			traits = {
+				experienced_diplomat innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Heinrich"
+			last_name = "von_Wunstorf"
+			heir = yes
+			culture = cu:alemannic
+			religion = rel:chalcedonian
+			birth_date = 1678.10.13
+			traits = {
+				experienced_diplomat innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Johan_Miller"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1658.10.27
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
 			first_name = "Werner_II"
 			last_name = "von_Wunstorf"
 			ruler = yes
 			culture = cu:alemannic
-			religion = rel:hussite
+			religion = rel:chalcedonian
 			birth_date = 1652.10.27
 			traits = {
-				arrogant 
+				ambitious 
+			}
+			on_created = {
+				set_variable = is_married
 			}
 		}
 

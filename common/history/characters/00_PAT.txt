@@ -1,0 +1,27 @@
+﻿CHARACTERS = {
+	c:PAT = {
+		create_character = {
+			first_name = "Domingo_Cienfuegos"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:platinean
+			religion = rel:catholic
+			birth_date = 1633.6.17
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Gutierre_Gomez"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1658.11.26
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

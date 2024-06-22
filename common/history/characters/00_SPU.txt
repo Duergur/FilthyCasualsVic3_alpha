@@ -1,33 +1,33 @@
 ﻿CHARACTERS = {
 	c:SPU = {
 		create_character = {
-			first_name = "Enrique_Cortes"
-			is_general = yes
+			first_name = "Odon_de_Ayala"
+			is_admiral = yes
 			commander_rank = commander_rank_2
-			birth_date = 1632.7.10
+			birth_date = 1662.7.18
+			traits = {
+				grifter 
+			}
 		}
 
 		create_character = {
-			first_name = "Hermenegildo_Tellez-Giron"
+			first_name = "Ramiro_Cienfuegos"
 			ruler = yes
 			is_general = yes
 			commander_rank = commander_rank_2
 			culture = cu:peruvian
 			religion = rel:catholic
-			birth_date = 1627.6.7
+			birth_date = 1641.9.6
 			traits = {
-				charismatic experienced_colonial_administrator 
+				cautious 
 			}
 		}
 
 		create_character = {
-			first_name = "Hernando_de_la_Vega"
-			is_admiral = yes
-			commander_rank = commander_rank_1
-			birth_date = 1613.10.26
-			traits = {
-				opium_addiction 
-			}
+			first_name = "Enrique_de_Nebrija"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1660.6.20
 		}
 
 	}

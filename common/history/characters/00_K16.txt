@@ -1,13 +1,22 @@
 ﻿CHARACTERS = {
 	c:K16 = {
 		create_character = {
-			first_name = "Mallee_Jirra"
+			first_name = "Mearann_Mearann"
 			ruler = yes
 			culture = cu:aborigine
 			religion = rel:animist
-			birth_date = 1629.9.4
+			birth_date = 1674.12.28
 			traits = {
-				imperious 
+				bigoted experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Girra_Apari"
+			is_general = yes
+			birth_date = 1656.5.20
+			traits = {
+				grifter 
 			}
 		}
 

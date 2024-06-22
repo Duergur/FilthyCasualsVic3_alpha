@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:SIA = {
+		create_character = {
+			first_name = "Ramaracha"
+			last_name = "Lamphun"
+			heir = yes
+			culture = cu:thai
+			religion = rel:mahayana
+			birth_date = 1692.7.13
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Sharat"
+			last_name = "Konbaung"
+			female = yes
+			culture = cu:burmese
+			religion = rel:mahayana
+			birth_date = 1666.12.16
+			traits = {
+				arrogant basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Rama_I"
+			last_name = "Lamphun"
+			ruler = yes
+			culture = cu:thai
+			religion = rel:mahayana
+			birth_date = 1660.12.6
+			traits = {
+				basic_diplomat persistent 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

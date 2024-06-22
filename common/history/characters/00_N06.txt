@@ -7,7 +7,7 @@
 			religion = rel:protestant
 			birth_date = 1610.4.4
 			traits = {
-				direct 
+				direct senile 
 			}
 		}
 

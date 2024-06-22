@@ -1,10 +1,49 @@
 ﻿CHARACTERS = {
 	c:W87 = {
 		create_character = {
-			first_name = "Enrico_Tanucci"
+			first_name = "Kalara"
+			last_name = "Apa"
+			female = yes
+			culture = cu:melanesian
+			religion = rel:animist
+			birth_date = 1671.6.14
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Timi"
+			last_name = "Cipuru"
+			heir = yes
+			culture = cu:melanesian
+			religion = rel:animist
+			birth_date = 1692.11.29
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Adi_III"
+			last_name = "Cipuru"
+			ruler = yes
+			culture = cu:melanesian
+			religion = rel:animist
+			birth_date = 1640.8.26
+			traits = {
+				cruel experienced_colonial_administrator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Iloilovatu_Apisalome"
 			is_admiral = yes
-			commander_rank = commander_rank_1
-			birth_date = 1616.4.7
+			commander_rank = commander_rank_2
+			birth_date = 1644.11.23
 			traits = {
 				alcoholic 
 			}

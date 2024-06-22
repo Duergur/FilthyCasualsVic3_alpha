@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:NZL = {
+		create_character = {
+			first_name = "Esteban_de_la_Cueva"
+			ruler = yes
+			culture = cu:spanish
+			religion = rel:catholic
+			birth_date = 1643.7.23
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Hermenegildo_Cienfuegos"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1657.9.17
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Hermenegildo_Lopez_de_Haro"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1645.8.27
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}
